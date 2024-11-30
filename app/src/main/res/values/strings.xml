@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Challenges</string>
+    <string name="challengestext">Take daily actions to reduce your carbon footprint, earn rewards for each completed challenge, and build sustainable habits. Let’s create a greener future together!</string>
+    <string name="day2">Day 2:  Unplug for Energy Savings</string>
+    <string name="day1text">Challenge Goal: Reduce your carbon footprint by choosing plant-based meals instead of meat.</string>
+    <string name="day1">Day 1: Go Meatless for One Day!</string>
+    <string name="start">Start Challenge</string>
+    <string name="day2text">Challenge Goal: Unplug electronics when not in use to reduce energy waste.</string>
+    <string name="day3">Day 3: Carry a Reusable Water Bottle</string>
+    <string name="day3text">Challenge Goal: Use a reusable water bottle instead of buying plastic ones..</string>
+    <string name="day4">Day 4:  Plan a Zero-Waste Meal</string>
+    <string name="day4text">Challenge Goal: Use ingredients you already have at home to prepare a mea</string>
+    <string name="day5">Day 5:  Digital Declutter</string>
+    <string name="day5text">Challenge Goal: Delete old emails and files from your devices and cloud storage.</string>
+</resources>

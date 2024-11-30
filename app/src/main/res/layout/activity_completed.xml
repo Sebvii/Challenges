@@ -1,0 +1,159 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightYellow"
+    tools:context=".CompletedActivity">
+
+    <!-- ScrollView wrapping the entire layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <!-- Inner LinearLayout to hold all content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="16dp">
+
+            <!-- Header Text (Aligned to Left) -->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                android:text="Challenges"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <!-- Rewards Button beside the Challenges Title -->
+            <Button
+                android:id="@+id/btnRewards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REWARDS"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/green"
+                android:layout_marginTop="-50dp"
+                android:layout_gravity="end"/>
+
+            <!-- New Text Below Challenges Title -->
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/challengestext"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+
+            <!-- LinearLayout to hold both "In Progress" and "Completed" buttons -->
+            <RadioGroup
+                android:id="@+id/radio_group_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/radio_group_background"
+                android:padding="4dp">
+
+                <!-- In Progress button -->
+                <RadioButton
+                    android:id="@+id/radio_in_progress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_in_progress"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="IN PROGRESS"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <!-- Completed button -->
+                <RadioButton
+                    android:id="@+id/radio_completed"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_completed"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="COMPLETED"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <!-- Challenge Cards -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Challenge Title -->
+                <TextView
+                    android:id="@+id/challengeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 1: Go Meatless for One Day!"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-medium" />
+
+                <!-- Challenge Description -->
+                <TextView
+                    android:id="@+id/challengeDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Challenge Goal: Reduce your carbon footprint by choosing plant-based meals instead of meat."
+                    android:textSize="14sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_marginTop="8dp" />
+
+                <!-- Progress Bar -->
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/progress_bar_style"
+                    android:layout_marginTop="16dp" />
+
+                <!-- Status Text (Finished/Completion Date) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:id="@+id/statusText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Finished"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/completionDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Completed on 11/19/24"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
