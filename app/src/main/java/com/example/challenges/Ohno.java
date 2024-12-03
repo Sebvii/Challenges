@@ -35,6 +35,6 @@ public class Ohno extends AppCompatActivity {
 
     private void showContent() {
         // Set the content view to the main content layout
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_challenge_one);
     }
 }

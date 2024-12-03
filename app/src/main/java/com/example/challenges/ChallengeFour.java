@@ -1,24 +1,43 @@
 package com.example.challenges;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class ChallengeFour extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_challenge_four);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        // Initialize the buttons
+        Button laterButton = findViewById(R.id.laterButton);
+        Button doneButton = findViewById(R.id.doneButton);
+
+        // Set click listeners
+        laterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Action for the Later button
+                Toast.makeText(ChallengeFour.this, "Later button clicked", Toast.LENGTH_SHORT).show();
+
+                // Navigate back to the main activity
+                Intent intent = new Intent(ChallengeFour.this, MainActivity.class);
+                startActivity(intent); // Start the MainActivity
+                finish(); // Finish the current activity to remove it from the stack
+            }
+        });
+
+        doneButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Action for the Done button
+                Toast.makeText(ChallengeFour.this, "Done button clicked", Toast.LENGTH_SHORT).show();
+            }
         });
     }
 }

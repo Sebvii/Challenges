@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:padding="8dp"
-                android:text="Challenges"
+                android:text="@string/challenge"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -43,9 +43,9 @@
                 android:id="@+id/btnRewards"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="REWARDS"
+                android:text="@string/rewards"
                 android:textColor="@color/white"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/dark_green"
                 android:layout_marginStart="250dp"
                 android:layout_marginTop="-50dp"
                 app:layout_constraintTop_toTopOf="@id/tvTitle"
@@ -79,7 +79,7 @@
                     android:background="@drawable/radio_button_in_progress"
                     android:button="@null"
                     android:gravity="center"
-                    android:text="IN PROGRESS"
+                    android:text="@string/inprogress"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -92,7 +92,7 @@
                     android:background="@drawable/radio_button_completed"
                     android:button="@null"
                     android:gravity="center"
-                    android:text="COMPLETED"
+                    android:text="@string/complete"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
             </RadioGroup>
@@ -132,7 +132,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/start"
-                    android:backgroundTint="@color/green"
+                    android:backgroundTint="@color/dark_green"
                     android:textColor="@color/white"
                     android:layout_marginTop="16dp" />
             </LinearLayout>
@@ -170,7 +170,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/start"
-                    android:backgroundTint="@color/green"
+                    android:backgroundTint="@color/dark_green"
                     android:textColor="@color/white"
                     android:layout_marginTop="16dp" />
             </LinearLayout>
@@ -208,7 +208,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/start"
-                    android:backgroundTint="@color/green"
+                    android:backgroundTint="@color/dark_green"
                     android:textColor="@color/white"
                     android:layout_marginTop="16dp" />
             </LinearLayout>
@@ -246,7 +246,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/start"
-                    android:backgroundTint="@color/green"
+                    android:backgroundTint="@color/dark_green"
                     android:textColor="@color/white"
                     android:layout_marginTop="16dp" />
             </LinearLayout>
@@ -282,7 +282,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/start"
-                    android:backgroundTint="@color/green"
+                    android:backgroundTint="@color/dark_green"
                     android:textColor="@color/white"
                     android:layout_marginTop="16dp" />
             </LinearLayout>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +11,7 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Day 1: Go Meatless for One Day!"
+        android:text="@string/day1"
         android:textSize="18sp"
         android:textColor="#000000"
         android:fontFamily="sans-serif-medium"
@@ -42,7 +43,7 @@
             android:id="@+id/co2Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-10 kg CO2 (-0.21% of your footprint)"
+            android:text="@string/carbstotal"
             android:textSize="14sp"
             android:textColor="@color/black"
             android:layout_marginBottom="16dp"
@@ -53,7 +54,7 @@
             android:id="@+id/descriptionText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eating plant-based meals instead of meat significantly reduces greenhouse gas emissions, conserves water, and lowers energy use associated with food production. By opting for plant-based alternatives, you can make a tangible positive impact on the environment while exploring diverse, nutritious, and delicious food options."
+            android:text="@string/fooddisc"
             android:textSize="14sp"
             android:lineSpacingExtra="4dp"
             android:textColor="#000000" />
@@ -72,7 +73,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Later"
+            android:text="@string/Later"
             android:backgroundTint="#E0E0E0"
             android:textColor="#000000"
             android:layout_marginEnd="8dp" />
@@ -82,7 +83,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Done"
+            android:text="@string/done"
             android:backgroundTint="@color/dark_green"
             android:textColor="#FFFFFF" />
     </LinearLayout>

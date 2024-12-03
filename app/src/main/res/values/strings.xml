@@ -12,4 +12,18 @@
     <string name="day4text">Challenge Goal: Use ingredients you already have at home to prepare a mea</string>
     <string name="day5">Day 5:  Digital Declutter</string>
     <string name="day5text">Challenge Goal: Delete old emails and files from your devices and cloud storage.</string>
+    <string name="done">Done</string>
+    <string name="Later">Later</string>
+    <string name="fooddisc">Eating plant-based meals instead of meat significantly reduces greenhouse gas emissions, conserves water, and lowers energy use associated with food production. By opting for plant-based alternatives, you can make a tangible positive impact on the environment while exploring diverse, nutritious, and delicious food options.</string>
+    <string name="carbstotal">-10 kg CO2 (-0.21% of your footprint)</string>
+    <string name="complete">COMPLETED</string>
+    <string name="inprogress">IN PROGRESS</string>
+    <string name="rewards">REWARDS</string>
+    <string name="challenge">Challenges</string>
+    <string name="earthhome">"\nYou've successfully completed Day One of the challenge and earned points. Thank you for making the effort to stay green! "</string>
+    <string name="co2">-10 kg CO2</string>
+    <string name="day2texts">Many electronics continue to consume energy even when turned off, a phenomenon known as \"phantom\" or \"standby\" power. By unplugging devices such as chargers, appliances, and entertainment systems when they’re not in use, you can significantly cut down on unnecessary energy consumption, lower your carbon footprint, and save on electricity bills. This simple habit can make a big difference in reducing overall energy waste.\n\nThis challenge helps build sustainable habits while contributing to energy conservation and reducing unnecessary environmental impact.</string>
+    <string name="day3texts">Single-use plastic water bottles contribute significantly to pollution and landfill waste, taking hundreds of years to decompose. By switching to a reusable water bottle, you reduce plastic waste, minimize your carbon footprint, and help conserve resources. It’s an easy and effective way to stay hydrated while supporting a more sustainable lifestyle.\n\nThis challenge not only reduces plastic waste but also encourages healthier hydration habits.</string>
+    <string name="day4texts">Instead of buying takeout or extra groceries, this challenge encourages you to get creative with what’s already in your pantry, fridge, or freezer. Not only does this reduce food waste and save money, but it also promotes resourcefulness and helps you discover new ways to combine ingredients. By using what you have on hand, you can create delicious, budget-friendly meals while minimizing your environmental footprint.\n\nThis challenge helps you minimize food waste, save money, and make the most of what’s already in your kitchen.</string>
+    <string name="day5texts">Over time, old emails and files accumulate, taking up unnecessary space on your devices and cloud storage. By organizing and deleting outdated or unused files, you can improve device performance, make it easier to find important information, and reduce your digital footprint. This challenge encourages digital decluttering, helping you stay organized while contributing to more efficient use of storage resources.\n\nThis challenge helps you maintain a cleaner, more organized digital environment while improving device efficiency and security.</string>
 </resources>
